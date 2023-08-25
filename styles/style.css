@@ -83,7 +83,6 @@ ol {
   grid-template-columns: 2fr 2fr 1fr;
   justify-content: start;
   column-gap: 40px;
-  align-items: end;
   margin-top: 16px;
 }
 
@@ -237,6 +236,7 @@ ol {
 
 .search-form__submit-button {
   width: 194px;
+  align-self: end;
 }
 
 .content__details {
